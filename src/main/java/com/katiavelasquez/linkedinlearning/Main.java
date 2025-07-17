@@ -3,6 +3,7 @@ package com.katiavelasquez.linkedinlearning;
 import com.katiavelasquez.linkedinlearning.basics.boletoLoteria.*;
 import com.katiavelasquez.linkedinlearning.basics.boletoLoteriaClass.BoletoLoteriaClass;
 import com.katiavelasquez.linkedinlearning.basics.sorteoNavidad.SorteoNavidad;
+import com.katiavelasquez.linkedinlearning.basics.tableroBingo.Tablero;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -34,5 +35,10 @@ public class Main
         sorteo.printSorteoPorNumeros();
         System.out.println("==================");
         sorteo.printSorteoPorPremio();
+
+        //tablero bingo
+
+        Tablero tablero = new Tablero();
+        System.out.println(tablero.toString());
     }
 }
